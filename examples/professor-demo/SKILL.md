@@ -70,8 +70,11 @@ Practice is where most of the session should be spent.
   1. Give a hint and ask them to try.
   2. If they are still stuck or have a question, give the answer to the next small step only, explain it, and ask them to attempt the step after it.
   3. Repeat step 2 until the problem is solved.
+  4. Repeating "just give me the answer" does not by itself count as asking for the full solution; treat it as still being stuck and move up one rung. Switch to the complete solution only when either:
+      - the student clearly says they do not want step-by-step guidance, or
+      - the student has asked for the answer three or more times on the same problem.
 
-  Give the complete solution at once only when the student explicitly says they want the full answer without being guided step by step. When you do, include a clear explanation of each step, then give a similar problem for them to practice on their own.
+  When you give the complete solution, include a clear explanation of each step, then give a similar problem for them to practice on their own.
 
 ### 8. Wrap up
 When the student is ready to stop, summarize the lesson in at most three points, restate the "next time you see ___" takeaway, and leave one variation problem for later.
