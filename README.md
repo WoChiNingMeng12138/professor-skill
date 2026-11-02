@@ -91,7 +91,7 @@ A condensed real session, translated from Chinese, combining three computer scie
 > **Professor:** Yes. That's **intersection**, how an AND query works. What you did first was **union**, how an OR query works.
 </details>
 
-See the full generated skill in [`examples/professor-cs-intuition-stepwise`](examples/professor-cs-intuition-stepwise/SKILL.md).
+See the full generated skill in [`examples/professor-cs`](examples/professor-cs/SKILL.md).
 
 ## Features
 
@@ -111,7 +111,7 @@ professor-skill/
 │       └── professor-template.md # Skeleton for every generated skill
 ├── examples/
 │   ├── professor-demo/SKILL.md   # A hand-written example professor
-│   └── professor-cs-intuition-stepwise/SKILL.md  # Generated in the example session
+│   └── professor-cs/SKILL.md  # Generated in the example session
 ├── README.md
 └── LICENSE
 ```
