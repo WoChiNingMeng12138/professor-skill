@@ -91,7 +91,7 @@ A condensed real session, translated from Chinese, combining three computer scie
 > **Professor:** Yes. That's **intersection**, how an AND query works. What you did first was **union**, how an OR query works.
 </details>
 
-See the full generated skill in [`examples/professor-cs`](examples/professor-cs/SKILL.md).
+See the full generated skill in [`examples/professor-cs-intuition-stepwise`](examples/professor-cs-intuition-stepwise/SKILL.md).
 
 ## Features
 
@@ -105,13 +105,17 @@ See the full generated skill in [`examples/professor-cs`](examples/professor-cs/
 
 ```
 professor-skill/
+├── .claude-plugin/
+│   ├── plugin.json               # Claude Code plugin manifest
+│   └── marketplace.json          # Lets Claude Code install this repo as a plugin
 ├── professor/                    # The generator skill
 │   ├── SKILL.md                  # Interview, profile, and generation workflow
 │   └── templates/
 │       └── professor-template.md # Skeleton for every generated skill
 ├── examples/
 │   ├── professor-demo/SKILL.md   # A hand-written example professor
-│   └── professor-cs/SKILL.md  # Generated in the example session
+│   └── professor-cs-intuition-stepwise/SKILL.md  # Generated in the example session
+├── CONTRIBUTING.md
 ├── README.md
 └── LICENSE
 ```
@@ -119,11 +123,23 @@ professor-skill/
 ## Installation
 
 **Claude apps (web, desktop, mobile)**
-1. Download or clone this repository.
-2. Zip the `professor` folder, keeping `templates/` inside it.
-3. Upload the zip as a skill in Claude's settings.
+1. Download `professor.zip` from the [latest release](https://github.com/WoChiNingMeng12138/professor-skill/releases/latest).
+2. Upload the zip as a skill in Claude's settings.
 
-**Claude Code**
+**Claude Code (as a plugin)**
+
+In a Claude Code session, run:
+```
+/plugin install professor-skill --marketplace WoChiNingMeng12138/professor-skill
+```
+
+On older versions of Claude Code, add the marketplace first, then install:
+```
+/plugin marketplace add WoChiNingMeng12138/professor-skill
+/plugin install professor-skill@professor-skill
+```
+
+**Claude Code (manual)**
 ```bash
 git clone https://github.com/WoChiNingMeng12138/professor-skill.git
 cp -r professor-skill/professor ~/.claude/skills/
@@ -155,7 +171,7 @@ Want to try a finished professor first? Install `examples/professor-demo` and as
 
 ## Contributing
 
-Issues and pull requests are welcome, especially:
+Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Especially welcome:
 - Generated skills that behaved unexpectedly (please remove any personal details first)
 - Better interview questions or template defaults
 - Example professors for other subjects

@@ -1,0 +1,14 @@
+{
+  "name": "professor-skill",
+  "description": "Professor Skill: turn your favorite professors into a personal AI tutor.",
+  "owner": {
+    "name": "WoChiNingMeng12138"
+  },
+  "plugins": [
+    {
+      "name": "professor-skill",
+      "source": "./",
+      "description": "Interviews you about your favorite professors and generates a personal AI tutor skill that teaches like them."
+    }
+  ]
+}

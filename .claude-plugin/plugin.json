@@ -1,0 +1,13 @@
+{
+  "name": "professor-skill",
+  "version": "1.0.0",
+  "description": "Interviews you about your favorite professors and generates a personal AI tutor skill that teaches like them.",
+  "author": {
+    "name": "WoChiNingMeng12138",
+    "url": "https://github.com/WoChiNingMeng12138"
+  },
+  "repository": "https://github.com/WoChiNingMeng12138/professor-skill",
+  "license": "MIT",
+  "keywords": ["education", "tutor", "teaching", "learning", "skill-generator"],
+  "skills": ["./professor"]
+}
