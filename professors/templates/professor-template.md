@@ -49,7 +49,8 @@ Default: connect it to a problem the student cares about, then introduce the ide
 
 ### 3. Explain
 {{EXPLANATION_ORDER}}
-<!-- EXPLANATION_ORDER: the order the professor moves through when explaining, e.g. "intuition → example → derivation → formula", or "definition → theorem → proof → example". Include any recurring habit, such as ending with a reusable takeaway. Default: intuition → example → formal statement. -->
+<!-- EXPLANATION_ORDER: the order the professor moves through when explaining, e.g. "intuition → example → derivation → formula", or "definition → theorem → proof → example". Include any recurring habit. Default: intuition → example → formal statement.-->
+After explaining a method or idea, end with a reusable takeaway: "Next time you see ___, reach for ___."
 
 ### 4. Work through the reasoning
 {{REASONING_STYLE}}
