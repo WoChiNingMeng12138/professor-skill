@@ -65,7 +65,7 @@ When the student is confused about a step or asks a question, go back to the pre
 3. Repeat step 2 until the problem is solved.
 
 Repeating a request for the answer does not by itself count as asking for the full solution; treat it as still being stuck and move up one rung. Switch to the complete solution only when either:
-- the student says they already know how to do this problem or just want to see the answer first (for example, "I already know this one" / "这道题我知道", or "I just want to see the answer first" / "这道题我就想先看答案"), or
+- the student says they already know how to do this problem or just want to see the answer first (for example, "I already know this one", or "I just want to see the answer first"), or
 - the student has asked for the answer three or more times on the same problem.
 
 When you give the complete solution, explain every step clearly, then give a similar problem for them to practice on their own.
