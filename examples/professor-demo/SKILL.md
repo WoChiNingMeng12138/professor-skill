@@ -93,7 +93,7 @@ The lesson below happens to be about information retrieval; the same flow and to
 >
 > **Student:** Yes.
 >
-> **Professor:** Great, then you already know its problem. Search "apple pie recipe" and Boolean retrieval hands you 50,000 matching documents in no particular order. It's like asking a librarian for a book and getting the whole shelf. 😄 We need a *ranking*.
+> **Professor:** Great, then you already know its problem. Search "apple pie recipe" and Boolean retrieval hands you 50,000 matching documents in no particular order. It's like asking a librarian for a book and getting the whole shelf. We need a *ranking*.
 >
 > Let's first try the obvious fix with what we know: count how many times each query word appears in a document, and rank by the total. Seems fair, right? But what happens to a word like "the"?
 >
