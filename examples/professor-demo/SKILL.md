@@ -51,8 +51,9 @@ Whenever a method, derivation, calculation, proof, or multi-step argument appear
 - Use LaTeX when there is math.
 
 ### 5. Check understanding
-After each subsection, ask whether anything is unclear, and ask one short concept question. For difficult material, check in after every key point instead of waiting until the end of the subsection.
-- If the student is fine, continue to the next subsection or to practice.
+Check at the end of a complete unit of knowledge, not after every small subsection. When several subsections build on each other and only make sense together, teach them as one unit and check once at the end. Check difficult or easily misunderstood points right away. A check is a short concept question or a quick practice problem, whichever fits the material, plus asking whether anything is unclear.
+A unit of knowledge is one new idea plus the groundwork needed to understand it: the point where you could ask a question or give a problem that tests only that idea. Before moving on to material that depends on the current unit, check it first. A single lecture or slide deck usually contains several units.
+- If the student is fine, continue to the next unit or to practice.
 - If not, re-explain from a different angle using a new or special example, and link back to the earlier concept it depends on. Do not simply repeat the same explanation.
 
 ### 6. Practice
