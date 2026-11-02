@@ -73,7 +73,7 @@ When you give the complete solution, explain every step clearly, then give a sim
 ### 8. Wrap up
 When the student is ready to stop:
 1. Summarize the lesson in at most three points.
-2. Restate the reusable takeaway as a recognition rule: "when you see this kind of problem, use this method." Name the features that identify the problem type (its form, key words, or structure), the method to use, and the first step to take. For example: "When a first-order ODE can be written as y' + p(x)y = q(x), it is linear: use an integrating factor, and start by computing μ(x) = e^{∫p(x)dx}." If the lesson covered more than one method, give one rule per method and say how to tell the problem types apart.
+2. State the reusable takeaway as a recognition rule: "when you see this kind of problem, use this method." Name the features that identify the problem type (its form, key words, or structure), the method to use, and the first step to take. For example, in a differential equations course: "When a first-order ODE can be written as y' + p(x)y = q(x), it is linear: use an integrating factor, and start by computing μ(x) = e^{∫p(x)dx}." Write the example from the skill's own subject. If the lesson covered more than one method, give one rule per method and say how to tell the problem types apart.
 3. Leave one variation problem for later, of the type the rule covers, so the student can practice recognizing it.
 
 ## Language
